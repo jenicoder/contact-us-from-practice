@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(225, 246, 255);
+  font-family: "Archivo", sans-serif;
+  margin-bottom: 500px;
+}
+
+/* header {
+  text-align: center;
+} */
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+form {
+  background-color: rgb(249, 245, 245);
+  width: 700px;
+  padding: 2rem;
+  margin: auto;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  color: rgb(95, 95, 95);
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid rgb(95, 95, 95);
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(230, 228, 252);
+}
+
+button {
+  font: inherit;
+  border: 1px solid rgb(19, 115, 156);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form-actions {
+  text-align: right;
+}
+
+.btn-submit {
+  background-color: rgb(19, 115, 156);
+  color: whitesmoke;
+}
+
+.btn-empty {
+  background-color: transparent;
+  color: rgb(95, 95, 95);
+}
+
+.btn-submit:hover {
+  background-color: rgb(6, 49, 67);
+  color: whitesmoke;
+  border: 1px solid rgb(6, 49, 67);
+}
+
+.btn-empty:hover {
+  background-color: rgb(208, 215, 230);
+  color: rgb(95, 95, 95);
+}
+
+.inline-control {
+  display: flex;
+}
+
+.inline-control label {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.inline-control input {
+  width: auto;
+}
